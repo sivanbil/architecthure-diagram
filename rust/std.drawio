@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T23:08:44.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KEEgftamXD5VFCVMfZfK" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T23:09:13.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9_PDZvcK8Zjstliw6sI0" version="21.2.9" type="github">
   <diagram name="第 1 页" id="ruGdGsVqz76HTMlJoUBi">
     <mxGraphModel dx="1804" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="9S9opLhV0Gk6htUkP5t5-43" value="Floating point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="130" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9S9opLhV0Gk6htUkP5t5-44" value="Legend" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-44" value="Legend 图例" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1350" y="90" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="9S9opLhV0Gk6htUkP5t5-45" value="standard Library modules" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
