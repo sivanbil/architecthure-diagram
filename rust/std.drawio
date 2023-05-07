@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T22:49:55.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LumRwyRoBVHRUuQq8akb" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T23:06:25.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KQplUYxOhFcGTFEtrv0C" version="21.2.9" type="github">
   <diagram name="第 1 页" id="ruGdGsVqz76HTMlJoUBi">
     <mxGraphModel dx="1804" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,6 +40,9 @@
         <mxCell id="9S9opLhV0Gk6htUkP5t5-13" value="Platform-specific syscall&lt;br&gt;wrapper APIs&lt;br&gt;特定平台系统调用&lt;br&gt;API包装器&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-50" y="135" width="150" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S9opLhV0Gk6htUkP5t5-15" target="9S9opLhV0Gk6htUkP5t5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9S9opLhV0Gk6htUkP5t5-15" value="Rust standard library Rust标准库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="120" y="80" width="520" height="40" as="geometry" />
         </mxCell>
@@ -60,6 +63,69 @@
         </mxCell>
         <mxCell id="9S9opLhV0Gk6htUkP5t5-21" value="User space programs&lt;br&gt;用户空间程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-47.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="20" width="600" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="40" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-28" value="Concurrency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-29" value="I/O" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-30" value="Networking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-31" value="OS-related" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-32" value="FileSystem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-33" value="Collections" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-34" value="Async" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-35" value="Memory&lt;br&gt;Allocation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-36" value="FFI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240.5" y="170" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-37" value="Time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-38" value="Ascii" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-39" value="Errors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="170" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-40" value="Core crate&lt;br&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;Foundation crate&lt;br&gt;(platform-agnostic)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="220" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-41" value="Alloc crate&lt;br&gt;&lt;font color=&quot;#b3b3b3&quot; style=&quot;font-size: 8px;&quot;&gt;Allocation and collections library&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="220" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-42" value="Rust language Primitives&lt;br&gt;&lt;font color=&quot;#b3b3b3&quot; style=&quot;font-size: 8px;&quot;&gt;implemented by Compiler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="290" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-43" value="Floating point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-44" value="Legend" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="90" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-45" value="standard Library modules" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="135" width="125" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-46" value="Lower-level&lt;br&gt;crates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="195" width="125" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
