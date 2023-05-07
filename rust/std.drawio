@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T23:08:19.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AWy9vgu6XnuZawjRkRRn" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T23:08:44.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KEEgftamXD5VFCVMfZfK" version="21.2.9" type="github">
   <diagram name="第 1 页" id="ruGdGsVqz76HTMlJoUBi">
     <mxGraphModel dx="1804" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="9S9opLhV0Gk6htUkP5t5-41" value="Alloc crate&lt;br&gt;&lt;font color=&quot;#b3b3b3&quot; style=&quot;font-size: 8px;&quot;&gt;Allocation and collections library&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="220" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9S9opLhV0Gk6htUkP5t5-42" value="Rust language Primitives&lt;br&gt;&lt;font color=&quot;#b3b3b3&quot; style=&quot;font-size: 8px;&quot;&gt;implemented by Compiler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9S9opLhV0Gk6htUkP5t5-42" value="Rust language Primitives Rust 语言原语&lt;br&gt;&lt;font color=&quot;#b3b3b3&quot; style=&quot;font-size: 8px;&quot;&gt;implemented by Compiler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="290" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9S9opLhV0Gk6htUkP5t5-43" value="Floating point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
