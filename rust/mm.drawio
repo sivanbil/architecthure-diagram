@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T00:27:24.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="th0JufPVgv5ITHHEKAsP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T00:43:29.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VTAa3IJHZh9Wn0xrana1" version="21.2.9" type="github">
   <diagram name="第 1 页" id="3Fi4PHyr0sNlPwbl5L7e">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cIkkR4y5fprMqVrY7K95-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cIkkR4y5fprMqVrY7K95-1" target="cIkkR4y5fprMqVrY7K95-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-1" value="memory allocation&lt;br&gt;内存分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cIkkR4y5fprMqVrY7K95-2" target="cIkkR4y5fprMqVrY7K95-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-2" value="memory use and manipulation&lt;br&gt;内存使用和操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-4" value="memory release&lt;br&gt;内存释放" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-6" value="Track memory usage 跟踪内存使用情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-7" value="static memory 静态内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="168" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-8" value="Dynamic memory 动态内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="198" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-9" value="initialize&amp;nbsp; 初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="359" y="168" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-10" value="Assign&amp;nbsp; &amp;nbsp;分配" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="198" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-11" value="Modify&amp;nbsp; &amp;nbsp; 修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="228" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-12" value="Copy&amp;nbsp; &amp;nbsp;复制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="258" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-13" value="Move&amp;nbsp; &amp;nbsp; 移动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="288" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-14" value="Create a reference&amp;nbsp; &amp;nbsp;创建引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="359" y="318" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-15" value="Pass a reference&amp;nbsp; &amp;nbsp; 传递引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="348" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-16" value="Programmer-controlled 程序控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="168" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-17" value="Garbage-collected 垃圾回收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-18" value="Compiler-generated 编译器生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="520" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-21" value="Main Memory&lt;br&gt;主内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="650" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-23" value="Kernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="650" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-24" value="Disk" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="650" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-25" value="process&lt;br&gt;进程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-26" value="page&lt;br&gt;页" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="740" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-27" value="swap" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cIkkR4y5fprMqVrY7K95-21" target="cIkkR4y5fprMqVrY7K95-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="750" as="sourcePoint" />
+            <mxPoint x="400" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="cIkkR4y5fprMqVrY7K95-21" target="cIkkR4y5fprMqVrY7K95-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="780" as="sourcePoint" />
+            <mxPoint x="440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-29" value="swap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cIkkR4y5fprMqVrY7K95-28">
+          <mxGeometry x="-0.1798" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-30" value="Is a memory location allocated to a process or free?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="458" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-31" value="How much memory is allocated to which process?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="490" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-32" value="How much memory is released by each process?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="530" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-33" value="When should memory be allocated to a process?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="570" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cIkkR4y5fprMqVrY7K95-34" value="Memory management lifecycle&lt;br&gt;内存生命周期管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="-10" width="310" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
