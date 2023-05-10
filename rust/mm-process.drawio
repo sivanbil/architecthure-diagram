@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T00:33:18.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="AyuSY0tymbWxRMyeRMvy" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T00:34:02.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vP3-ej65PSAmNz8VKgG1" version="21.2.9" type="github">
   <diagram name="第 1 页" id="d101oYT1afsGbO-OlnIw">
     <mxGraphModel dx="794" dy="1677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,13 +67,13 @@
         <mxCell id="Z-oKdGoeWoCjFYYMnYH3-14" value="reserved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-15" value="Program Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-15" value="程序数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="490" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-20" value="Initialized data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-20" value="初始化之后的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="450" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-22" value="Uninitialized data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-22" value="未初始化的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="410" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z-oKdGoeWoCjFYYMnYH3-24" value="堆向上增长" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -94,7 +94,7 @@
         <mxCell id="Z-oKdGoeWoCjFYYMnYH3-30" value="共享内存、内存映射、共享库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="285" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-32" value="not accessible to user programs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Z-oKdGoeWoCjFYYMnYH3-32" value="用户程序不可以访问" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="130" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z-oKdGoeWoCjFYYMnYH3-34" value="命令行参数和环境变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
